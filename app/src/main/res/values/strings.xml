@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Eu Reciclo</string>
+    <string name="user">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="confirmpassword">Confirmar senha</string>
+    <string name="login">Acessar</string>
+    <string name="forgot">Esqueci a senha</string>
+    <string name="register">Cadastrar</string>
+    <string name="name">Nome</string>
+    <string name="reset">Quero um nova senha</string>
+    <string name="lastName">Sobrenome</string>
+    <string name="success">Cadastrado com sucesso!</string>
+    <string name="ops">Ops, falha no cadastro</string>
+    <string name="message_invalid_user">Usuário ou senha inválidos</string>
+    <string name="ok">Ok</string>
+    <string name="generic_login">Estamos com problemas para responder o seu login. Tente novamente mais tarde.</string>
+    <string name="generic_register">Não conseguimos criar a sua conta. Tente novamente mais tarde.</string>
+    <string name="success_register">Você receberá uma nova senha.</string>
+    <string name="same_password">As senhas precisam ser iguais</string>
+    <string name="title_itemcastracao_list">Items</string>
+    <string name="title_itemcastracao_detail">Item_castracao Detail</string>
+    <string name="service">Serviços</string>
+    <string name="digEmail">Digite seu e-mail</string>
+    <string name="digPassword">Digite sua senha (mínimo 6 digítos)</string>
+    <string name="digConfPassword">Digite novamente a senha</string>
+    <string name="digName">Digite seu nome</string>
+    <string name="digLastName">Digite seu sobrenome</string>
+    <string name="castracao">Castração</string>
+    <string name="petsitter">PetSitter</string>
+    <string name="registro">Cadastrado com Sucesso</string>
+    <string name="tit_registro">Registrado</string>
+    <string name="sair">Deslogue o Usuario!</string>
+    <string name="ver_dados">Verifique usuário e senha</string>
+    <string name="error">Erro de login</string>
+    <string name="buscar">Buscar</string>
+    <string name="reenvio">Reenvio</string>
+    <string name="naocadastrado">Email não cadastrado!</string>
+    <string name="msg">Erro</string>
+    <string name="clinica">clínica</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+</resources>

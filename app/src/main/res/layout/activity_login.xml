@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="163dp"
+        app:srcCompat="@drawable/r"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:hint="Digite seu nome"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="233dp"
+        tools:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        tools:hint="+55"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:hint="31"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="296dp"
+        tools:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:hint="999999999"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="296dp"
+        tools:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao_customizado"
+        android:text="Cadastrar"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="363dp"
+        tools:text="@string/register"
+        tools:textColor="@color/white" />
+</android.support.constraint.ConstraintLayout>
